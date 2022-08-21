@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #ddd;
+}
+
+.container {
+  margin-top: 2rem;
+  max-width: 40rem;
+  padding: 2rem;
+  position: relative;
+}
+
+.add-task {
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.add-task form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-task form input {
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  color: #444;
+  width: 70%;
+  border: none;
+  outline: none;
+  background-color: rgb(200, 200, 200);
+  border-radius: 1rem;
+}
+
+.add-task form button {
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: #444;
+  background-color: rgb(200, 200, 200);
+  border-radius: 1rem;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+ul li {
+  background-color: gray;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+ul li button {
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+  background-color: rgb(255, 129, 129);
+}
+
+.clear-task {
+  border: none;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1rem;
+}
